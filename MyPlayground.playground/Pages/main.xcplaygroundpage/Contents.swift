@@ -26,18 +26,19 @@ worldInfo(continent: "North AMerica", numberOfCountries: 3)
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
-func greetin(name: String, greet: String) {
+func greeting(_ name: String, _ greeting: String) {
    
-    print("\(name), \(greet)!")
+    print("\(name), \(greeting)!")
 }
 
-greetin(name: "danny", greet: "Hello")
+greeting("dany", "hello")
 
 
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
 func daysInMonth(month: String, days: Int) {
+    
     print("There are \(days) in \(month)")
 }
 
